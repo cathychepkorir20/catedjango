@@ -1,0 +1,7 @@
+{% extends 'inner-page.html'%}
+{% block body %}
+    
+    <h2>Welcome {{ member.username }}. You have logged in as an admin. </h2>
+    <a href="{% url 'upload' %}" class = "btn btn-outline-primary"></a>    
+    
+{% endblock %}
